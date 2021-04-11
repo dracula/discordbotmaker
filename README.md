@@ -1,6 +1,7 @@
 # Dracula for [Discord Bot Maker](https://store.steampowered.com/app/682130/Discord_Bot_Maker)
 
 > A dark theme for [Discord Bot Maker](https://store.steampowered.com/app/682130/Discord_Bot_Maker).
+> Inspired by [cappp](https://github.com/cappp/dbm-dracula-theme).
 
 ![Screenshot](./DBMDracula.png)
 
