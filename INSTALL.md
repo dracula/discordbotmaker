@@ -15,4 +15,4 @@ Download using the [GitHub .zip download](https://github.com/dracula/discordbotm
 1. Open your Discord Bot Maker folder.
 2. Open themes folder.
 3. Put folder Dracula to this folder.
-4. You should see Dracula theme in Discord Bot Maker themes tab.
+4. You should see Dracula theme in Discord Bot Maker themes tab. If you don't, restart the program.
