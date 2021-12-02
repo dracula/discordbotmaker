@@ -15,10 +15,10 @@
 	cursor: pointer;
 	background-color: white; 
 	color: black; 
-	border: 2px solid #94527e;
+	border: 2px solid #4CAF50;
 }
 
 .emojiButton:hover {
-	background-color: #94527e;
+	background-color: #4CAF50;
 	color: white;
 }

@@ -3,6 +3,7 @@
 	cursor: pointer;
 	outline: none;
 }
+
 button.opener {
 	background-color: #282A36;
 	color: #eee;
@@ -15,8 +16,9 @@ button.opener {
 	font-size: 14px;
 	transition: 0.4s;
 }
+
 button.openerChild {
-	background-color: #373a49;
+	background-color: #282A36;
 	color: #eee;
 	cursor: pointer;
 	padding: 6px;
@@ -25,7 +27,6 @@ button.openerChild {
 	text-align: left;
 	outline: none;
 	font-size: 12px;
-	transition: background-color 0.25s;
 }
 
 button.openerChild.active, button.openerChild:hover {
@@ -51,8 +52,26 @@ button.opener.active:after {
 	content: "-";
 }
 
+button.searchClearButton {
+	float: left;
+	margin-right: 10px;
+	margin-top: 1px;
+	width: 15px;
+	height: 15px;
+	color: 0;
+	background: 0;
+	border: 0;
+	padding: 0;
+	outline: 0;
+}
+
+button.searchClearButton:active {
+	padding-left: 1px;
+	padding-top: 1px;
+}
+
 div.dropContent {
-	background-color: #282a36;
+	background-color: white;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
@@ -64,13 +83,13 @@ div.dropContent {
 }
 
 input[type=text] {
-	width: 90%;
+	width: 100%;
 }
 
 .action-input {
 	margin: 0 auto;
 	padding-top: 6px;
-	max-width: 640px;
+	/*max-width: 640px;*/
 	width: 94%;
 	height: 80%;
 }
@@ -83,7 +102,7 @@ input[type=text] {
 	right: 0;
 	top: 0;
 	left: 0;
-	background-color: #20212b;
+	background-color: #222428;
 	text-align: center;
 }
 
@@ -94,7 +113,7 @@ input[type=text] {
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
-	background-color: #20212b;
+	background-color: #222428;
 	text-align: center;
 }
 
@@ -116,17 +135,13 @@ input[type=text] {
 #leSideBar::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #282a36;
+	background-color: #242629;
 }
 
 #leSideBar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
-	background-color: #282a36;
-	border-width: 1px;
-    border-style: solid;
-    border-color: #94527e;
-	padding: 1px
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
 }
 
 input::-webkit-calendar-picker-indicator {
@@ -135,8 +150,10 @@ input::-webkit-calendar-picker-indicator {
 	transform: scale(0.7, 0.7);
 }
 
-input::-webkit-calendar-picker-indicator:hover {
+input::-webkit-calendar-picker-indicator {
+	opacity: 100;
 	background-color: transparent;
+	transform: scale(0.7, 0.7);
 }
 
 input#searchfilter {
@@ -144,5 +161,5 @@ input#searchfilter {
 	padding-left: 4px;
 	width: 94%;
 	height: 22px;
-	border: 1px solid #94527e;
+	border: 1px solid #333333;
 }

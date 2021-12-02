@@ -1,6 +1,11 @@
 body {
-	color: #94527e;
-	background-color: #282A36;
+	background-color: #272B37;
+        text-color: #77566A;
+	overflow: hidden;
+	transition: 0.5s;
+
+	background: #272B37;
+	background-size: 10px 10px;
 }
 
 img {
@@ -19,7 +24,7 @@ img {
 		transform: scale(1, 1);
 	}
 	50%  {
-		transform: scale(1.05, 1.05);
+		transform: scale(1.15, 1.15);
 	}
 	100% {
 		transform: scale(1, 1);
@@ -35,7 +40,7 @@ img {
 
 #frontImage {
 	animation-name: scaling;
-	animation-duration: 1s;
+	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
