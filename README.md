@@ -15,7 +15,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 | [![Kacper Smoliński](https://github.com/kacperleague9.png?size=100)](https://github.com/kacperleague9) | [![ThatSmilingTophat](https://github.com/ThatSmilingTophat.png?size=100)](https://github.com/ThatSmilingTophat) |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| [Kacper Smoliński](https://github.com/kacperleague9)                                                   | [ThatSmilingTophat](https://github.com/ThatSmilingTophat)                                                       |
+| [Kaspian](https://github.com/kacperleague9)                                                   | [ThatSmilingTophat](https://github.com/ThatSmilingTophat)                                                       |
 
 ## Community
 
